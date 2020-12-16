@@ -6,21 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>我的第一篇博客文章 | Hexo</title>
+  <title>Hexo搭建blog | Elric的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##第一章 内容  ##第二章 内容  ##参考文献 markdown语法">
+  <meta name="description" content="1.准备阶段搭建环境：nodejs、npm、git最好绑定taobao镜像（速度快） 2.搭架子npm install -g hexo-cli用的到的linux命令: pwd、mkdir、ls -l、 3.初始化blogpc下: hexo init用得到相关的hexo命令: hexo server（启动）、hexo clean（清理）、hexo g（生成）、新建文章（markdown语法）hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客文章">
+<meta property="og:title" content="Hexo搭建blog">
 <meta property="og:url" content="http://example.com/2020/12/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##第一章 内容  ##第二章 内容  ##参考文献 markdown语法">
+<meta property="og:site_name" content="Elric的博客">
+<meta property="og:description" content="1.准备阶段搭建环境：nodejs、npm、git最好绑定taobao镜像（速度快） 2.搭架子npm install -g hexo-cli用的到的linux命令: pwd、mkdir、ls -l、 3.初始化blogpc下: hexo init用得到相关的hexo命令: hexo server（启动）、hexo clean（清理）、hexo g（生成）、新建文章（markdown语法）hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-14T08:43:17.000Z">
-<meta property="article:modified_time" content="2020-12-14T08:49:32.041Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2020-12-14T12:54:11.615Z">
+<meta property="article:author" content="Elric">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Elric的博客" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -47,7 +47,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/me.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -81,13 +81,11 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="qq" target="_blank" href="/445878540" title="qq"><i class="icon-qq"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weixin" target="_blank" href="/15616191200" title="weixin"><i class="icon-weixin"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="mail" target="_blank" href="/grapefairy@sina.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -105,7 +103,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/me.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -122,13 +120,11 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="qq" target="_blank" href="/445878540" title="qq"><i class="icon-qq"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weixin" target="_blank" href="/15616191200" title="weixin"><i class="icon-weixin"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="mail" target="_blank" href="/grapefairy@sina.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -161,7 +157,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客文章
+      Hexo搭建blog
     </h1>
   
 
@@ -174,38 +170,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##第一章</p>
-<p>内容</p>
+        <p>1.准备阶段<br>搭建环境：nodejs、npm、git<br>最好绑定taobao镜像（速度快）</p>
+<p>2.搭架子<br>npm install -g hexo-cli<br>用的到的linux命令: pwd、mkdir、ls -l、</p>
+<p>3.初始化blog<br>pc下: hexo init<br>用得到相关的hexo命令: hexo server（启动）、hexo clean（清理）、hexo g（生成）、<br>新建文章（markdown语法）<br>hexo n “文章名”<br>编辑文章<br>vim 文章名<br>ESC–&gt;:wq 保存</p>
+<p>4.远程部署<br>npm install –save hexo-deployer-git<br>设置_config 的<br>Deployment<br>deploy:<br>  type: git<br>  repo: github仓库地址<br>  branch: master<br>:wq</p>
+<p>hexo d</p>
 <hr>
-<p>##第二章</p>
-<p>内容</p>
-<hr>
-<p>##参考文献</p>
-<p>markdown语法</p>
 
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -273,16 +246,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-  
-    <a href="/2020/12/14/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -320,7 +283,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2020 John Doe
+    		&copy; 2020 Elric
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -482,7 +445,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">------前端就像女朋友，既花时间陪她，也抽空想她，没事还得冲她发脾气，一段时间不理她吧还挺想她 ----情不知而起，一往而深</div>
   	  	
     	</section>
     
